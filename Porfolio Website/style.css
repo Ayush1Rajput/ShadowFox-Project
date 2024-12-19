@@ -199,3 +199,18 @@ section img {
   height: 6rem;
   background-color: black;
 }
+
+.prj-box {
+  width: 50vw;
+  height: 35vh;
+  border: 2px solid brown;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 3rem auto;
+  padding: 10px;
+}
+
+.prj-box button {
+  padding: 3px 10px;
+  border-radius: 5px;
+}
