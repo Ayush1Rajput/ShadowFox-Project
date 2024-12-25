@@ -64,6 +64,10 @@ body {
   background-size: cover;
   height: 70vh;
 }
+button a{
+  text-decoration: none;
+  color: black;
+}
 
 .dot {
   cursor: pointer;
@@ -440,6 +444,10 @@ footer{
 .footer h4{
   text-align: center;
   padding-top: 30px;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width:900px){

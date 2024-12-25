@@ -1,187 +1,275 @@
 {
-    "categories": [
-      {
-        "id": 1,
-        "name": "Men's Fashion",
-        "products": [
-          {
-            "id": 1,
-            "name": "Men's T-Shirt",
-            "description": "Comfortable cotton t-shirt for men.",
-            "price": 19.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+T-Shirt",
-            "sizes": ["S", "M", "L", "XL"],
-            "colors": ["Black", "White", "Blue", "Grey"]
-          },
-          {
-            "id": 2,
-            "name": "Men's Jeans",
-            "description": "Classic denim jeans for men.",
-            "price": 49.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+Jeans",
-            "sizes": ["28", "30", "32", "34"],
-            "colors": ["Blue", "Black", "Grey"]
-          },
-          {
-            "id": 3,
-            "name": "Men's Hoodie",
-            "description": "Stylish hooded sweatshirt for men.",
-            "price": 39.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+Hoodie",
-            "sizes": ["S", "M", "L", "XL"],
-            "colors": ["Black", "Grey", "Navy"]
-          },
-          {
-            "id": 4,
-            "name": "Men's Shoes",
-            "description": "Comfortable leather shoes for men.",
-            "price": 79.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+Shoes",
-            "sizes": ["7", "8", "9", "10"],
-            "colors": ["Black", "Brown"]
-          },
-          {
-            "id": 5,
-            "name": "Men's Watch",
-            "description": "Elegant men's wristwatch.",
-            "price": 99.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+Watch",
-            "colors": ["Black", "Silver", "Gold"]
-          },
-          {
-            "id": 6,
-            "name": "Men's Belt",
-            "description": "Leather belt for men.",
-            "price": 19.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+Belt",
-            "sizes": ["S", "M", "L"],
-            "colors": ["Black", "Brown", "Tan"]
-          },
-          {
-            "id": 7,
-            "name": "Men's Sunglasses",
-            "description": "Stylish sunglasses for men.",
-            "price": 29.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+Sunglasses",
-            "colors": ["Black", "Brown", "Grey"]
-          },
-          {
-            "id": 8,
-            "name": "Men's Backpack",
-            "description": "Durable backpack for men.",
-            "price": 49.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+Backpack",
-            "colors": ["Black", "Grey", "Blue"]
-          },
-          {
-            "id": 9,
-            "name": "Men's Wallet",
-            "description": "Leather wallet for men.",
-            "price": 29.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+Wallet",
-            "colors": ["Black", "Brown"]
-          },
-          {
-            "id": 10,
-            "name": "Men's Scarf",
-            "description": "Stylish winter scarf for men.",
-            "price": 14.99,
-            "image": "https://via.placeholder.com/200x200?text=Men's+Scarf",
-            "colors": ["Grey", "Black", "Blue"]
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Women's Fashion",
-        "products": [
-          {
-            "id": 11,
-            "name": "Women's Dress",
-            "description": "Elegant summer dress for women.",
-            "price": 59.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Dress",
-            "sizes": ["S", "M", "L", "XL"],
-            "colors": ["Red", "Black", "White"]
-          },
-          {
-            "id": 12,
-            "name": "Women's Shoes",
-            "description": "Stylish high heels for women.",
-            "price": 89.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Shoes",
-            "sizes": ["6", "7", "8", "9"],
-            "colors": ["Black", "Red", "Beige"]
-          },
-          {
-            "id": 13,
-            "name": "Women's Jeans",
-            "description": "Classic denim jeans for women.",
-            "price": 49.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Jeans",
-            "sizes": ["26", "28", "30", "32"],
-            "colors": ["Blue", "Black", "Grey"]
-          },
-          {
-            "id": 14,
-            "name": "Women's Blouse",
-            "description": "Stylish blouse for women.",
-            "price": 39.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Blouse",
-            "sizes": ["S", "M", "L", "XL"],
-            "colors": ["White", "Pink", "Blue"]
-          },
-          {
-            "id": 15,
-            "name": "Women's Skirt",
-            "description": "Flowing skirt for women.",
-            "price": 34.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Skirt",
-            "sizes": ["S", "M", "L"],
-            "colors": ["Black", "Red", "Green"]
-          },
-          {
-            "id": 16,
-            "name": "Women's Bag",
-            "description": "Stylish handbag for women.",
-            "price": 69.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Bag",
-            "colors": ["Black", "Brown", "Red"]
-          },
-          {
-            "id": 17,
-            "name": "Women's Watch",
-            "description": "Elegant women's wristwatch.",
-            "price": 79.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Watch",
-            "colors": ["Gold", "Silver", "Rose Gold"]
-          },
-          {
-            "id": 18,
-            "name": "Women's Jewelry",
-            "description": "Beautiful jewelry for women.",
-            "price": 29.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Jewelry",
-            "colors": ["Gold", "Silver"]
-          },
-          {
-            "id": 19,
-            "name": "Women's Sunglasses",
-            "description": "Stylish sunglasses for women.",
-            "price": 29.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Sunglasses",
-            "colors": ["Black", "Brown", "Grey"]
-          },
-          {
-            "id": 20,
-            "name": "Women's Scarf",
-            "description": "Stylish winter scarf for women.",
-            "price": 14.99,
-            "image": "https://via.placeholder.com/200x200?text=Women's+Scarf",
-            "colors": ["Grey", "Black", "Red"]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "categories": [
+    {
+      "id": 1,
+      "name": "Men's Fashion",
+      "products": [
+        {
+          "id": 9,
+          "name": "Men's Wallet",
+          "description": "Leather wallet for men.",
+          "price": 699,
+          "image": "./pictures/MenProducts/wallet.png",
+          "colors": ["Black", "Brown"],
+          "total_stock": 468
+        },
+        {
+          "id": 1,
+          "name": "Men's T-Shirt",
+          "description": "Comfortable cotton t-shirt for men.",
+          "price": 1499,
+          "image": "./pictures/MenProducts/tshirt.jpg",
+          "sizes": ["S", "M", "L", "XL"],
+          "colors": ["Black", "White", "Blue", "Grey"],
+          "total_stock": 542
+        },
+        {
+          "id": 4,
+          "name": "Men's Shoes",
+          "description": "Comfortable leather shoes for men.",
+          "price": 2899,
+          "image": "https://pixabay.com/get/gade4b9327fa3fd8d0fec9ca05e5d1bb1ea0d42031473f90563978890216187749b3f3a8b829240bd159d48b2bec9469d788c3fbea5882cbab5b53105ddcd4ddccaa7121deedb3a4727000eaa577ac54b_640.jpg",
+          "sizes": ["7", "8", "9", "10"],
+          "colors": ["Black", "Brown"],
+          "total_stock": 425
+        },
+        {
+          "id": 7,
+          "name": "Men's Sunglasses",
+          "description": "Stylish sunglasses for men.",
+          "price": 899,
+          "image": "./pictures/MenProducts/sunglass.png",
+          "colors": ["Black", "Brown", "Grey"],
+          "total_stock": 784
+        },
+        {
+          "id": 3,
+          "name": "Men's Hoodie",
+          "description": "Stylish hooded sweatshirt for men.",
+          "price": 2799,
+          "image": "./pictures/MenProducts/hoodie.png",
+          "sizes": ["S", "M", "L", "XL"],
+          "colors": ["Black", "Grey", "Navy"],
+          "total_stock": 325
+        },
+        {
+          "id": 8,
+          "name": "Men's Backpack",
+          "description": "Durable backpack for men.",
+          "price": 1399,
+          "image": "./pictures/MenProducts/bagpack.png",
+          "colors": ["Black", "Grey", "Blue"],
+          "total_stock": 783
+        },
+        {
+          "id": 5,
+          "name": "Men's Watch",
+          "description": "Elegant men's wristwatch.",
+          "price": 1789,
+          "image": "./pictures/MenProducts/watch.png",
+          "colors": ["Black", "Silver", "Gold"],
+          "total_stock": 243
+        },
+        {
+          "id": 6,
+          "name": "Men's Belt",
+          "description": "Leather belt for men.",
+          "price": 1199,
+          "image": "./pictures/MenProducts/belt.png",
+          "sizes": ["S", "M", "L"],
+          "colors": ["Black", "Brown", "Tan"],
+          "total_stock": 254
+        },
+        {
+          "id": 10,
+          "name": "Men's Scarf",
+          "description": "Stylish winter scarf for men.",
+          "price": 779,
+          "image": "./pictures/MenProducts/scarf.png",
+          "colors": ["Grey", "Black", "Blue"],
+          "total_stock": 1000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Women's Fashion",
+      "products": [
+        {
+          "id": 20,
+          "name": "Women's Scarf",
+          "description": "Stylish winter scarf for women.",
+          "price": 699,
+          "image": "./pictures/WomenProducts/wscarf.png",
+          "colors": ["Grey", "Black", "Red"]
+        },
+        {
+          "id": 13,
+          "name": "Women's Jeans",
+          "description": "Classic denim jeans for women.",
+          "price": 2999,
+          "image": "./pictures/WomenProducts/wjeans.png",
+          "sizes": ["26", "28", "30", "32"],
+          "colors": ["Blue", "Black", "Grey"],
+          "total_stock": 633
+        },
+        {
+          "id": 11,
+          "name": "Women's Dress",
+          "description": "Elegant summer dress for women.",
+          "price": 2899,
+          "image": "./pictures/WomenProducts/dress.png",
+          "sizes": ["S", "M", "L", "XL"],
+          "colors": ["Red", "Black", "White"],
+          "total_stock": 732
+        },
+        {
+          "id": 18,
+          "name": "Women's Jewelry",
+          "description": "Beautiful jewelry for women.",
+          "price": 29.99,
+          "image": "./pictures/WomenProducts/jewelry.png",
+          "colors": ["Gold", "Silver"],
+          "total_stock": 7999
+        },
+        {
+          "id": 14,
+          "name": "Women's Blouse",
+          "description": "Stylish blouse for women.",
+          "price": 1899,
+          "image": "./pictures/WomenProducts/blouse.png",
+          "sizes": ["S", "M", "L", "XL"],
+          "colors": ["White", "Pink", "Blue"],
+          "total_stock": 278
+        },
+        {
+          "id": 12,
+          "name": "Women's Shoes",
+          "description": "Stylish high heels for women.",
+          "price": 1799,
+          "image": "./pictures/WomenProducts/heels.webp",
+          "sizes": ["6", "7", "8", "9"],
+          "colors": ["Black", "Red", "Beige"],
+          "total_stock": 432
+        },
+        {
+          "id": 19,
+          "name": "Women's Sunglasses",
+          "description": "Stylish sunglasses for women.",
+          "price": 29.99,
+          "image": "./pictures/WomenProducts/glass.png",
+          "colors": ["Black", "Brown", "Grey"],
+          "total_stock": 439
+        },
+        {
+          "id": 16,
+          "name": "Women's Bag",
+          "description": "Stylish handbag for women.",
+          "price": 4399,
+          "image": "./pictures/WomenProducts/handbag.png",
+          "colors": ["Black", "Brown", "Red"],
+          "total_stock": 189
+        },
+        {
+          "id": 21,
+          "name": "Women's Coat",
+          "description": "Warm and stylish coat for winter.",
+          "price": 7499.99,
+          "image": "./pictures/WomenProducts/Coat.png",
+          "colors": ["Black", "Camel", "Navy"],
+          "sizes": ["S", "M", "L", "XL"],
+          "total_stock": 120
+        },
+        {
+          "id": 17,
+          "name": "Women's Watch",
+          "description": "Elegant women's wristwatch.",
+          "price": 79.99,
+          "image": "./pictures/WomenProducts/wwatch.png",
+          "colors": ["Gold", "Silver", "Rose Gold"],
+          "total_stock": 372
+        },
+        {
+          "id": 15,
+          "name": "Women's Skirt",
+          "description": "Flowing skirt for women.",
+          "price": 899,
+          "image": "./pictures/WomenProducts/skirt.png",
+          "sizes": ["S", "M", "L"],
+          "colors": ["Black", "Red", "Green"],
+          "total_stock": 329
+        },
+        {
+          "id": 22,
+          "name": "Women's Leggings",
+          "description": "Comfortable and versatile leggings for casual wear.",
+          "price": 999.99,
+          "image": "./pictures/WomenProducts/legging.png",
+          "colors": ["Black", "Grey", "Navy"],
+          "sizes": ["S", "M", "L", "XL"],
+          "total_stock": 250
+        },
+        {
+          "id": 24,
+          "name": "Women's Hat",
+          "description": "Stylish and functional hats for all seasons.",
+          "price": 1099,
+          "image": "./pictures/WomenProducts/hat.png",
+          "colors": ["Black", "Tan", "Pink"],
+          "sizes": ["One Size"],
+          "total_stock": 180
+        },
+        {
+          "id": 23,
+          "name": "Women's Cardigan",
+          "description": "Cozy knit cardigan for layering.",
+          "price": 3499.99,
+          "image": "./pictures/WomenProducts/cardigan.png",
+          "colors": ["Beige", "White", "Gray"],
+          "sizes": ["S", "M", "L", "XL"],
+          "total_stock": 150
+        },
+        {
+          "id": 27,
+          "name": "Women's Boots",
+          "description": "Stylish boots for the colder months.",
+          "price": 5499.99,
+          "image": "./pictures/WomenProducts/boots.png",
+          "colors": ["Brown", "Black", "Tan"],
+          "sizes": ["6", "7", "8", "9"],
+          "total_stock": 130
+        },
+        {
+          "id": 28,
+          "name": "Women's Romper",
+          "description": "Comfortable and trendy one-piece romper for women.",
+          "price": 2999.99,
+          "image": "./pictures/WomenProducts/romper.png",
+          "colors": ["Black", "Red", "Yellow"],
+          "sizes": ["S", "M", "L"],
+          "total_stock": 160
+        },
+        {
+          "id": 25,
+          "name": "Women's High-Waisted Trousers",
+          "description": "Elegant high-waisted trousers for formal and casual wear.",
+          "price": 4499.99,
+          "image": "./pictures/WomenProducts/Trousers.png",
+          "colors": ["Black", "Navy", "Beige"],
+          "sizes": ["28", "30", "32", "34"],
+          "total_stock": 220
+        },
+        {
+          "id": 26,
+          "name": "Women's Blazer",
+          "description": "Tailored blazer for a polished look.",
+          "price": 6499.99,
+          "image": "./pictures/WomenProducts/blazer.png",
+          "colors": ["Black", "Grey", "Blue"],
+          "sizes": ["S", "M", "L", "XL"],
+          "total_stock": 100
+        }
+      ]
+    }
+  ]
+}

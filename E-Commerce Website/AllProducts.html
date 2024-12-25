@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Products.css" />
+    <title>Product Cards</title>
+  </head>
+  <body>
+    <div class="navbar">
+        <div id="logo">
+            <img src="./pictures/EiserFashion-logo.png" alt="Logo" />
+        </div>
+  
+  
+        <div id="list">
+            <ul>
+              <li style="border-bottom: 2px solid rgb(250, 2, 2);"><a href="./index.html">HOME</a></li>
+              <li><a href="./women.html">WOMEN'S</a></li>
+              <li><a href="./men.html">MEN'S</a></li>
+              <li><a href="./AllProducts.html">SHOP</a></li>
+              <li><a href="#">PAGES</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+  
+        <div id="icons">
+            <span> Login/ Register </span>
+            <i class="fas fa-search fa-rotate-90"></i>
+            <i class="far fa-heart"></i>
+            <i class="fa-regular fa-clipboard"></i>
+        </div>
+    </div>
+    <section class="section-products">
+      <div class="container">
+        <div class="section-common-heading"></div>
+      </div>
+      <section class="container">
+        <div id="productContainer"></div>
+      </section>
+    </section>
+
+    <template id="productTemplate">
+      <div class="cards" id="cardValue">
+        <article class="information">
+          <div class="imageContainer">
+            <img class="productImg" src="" alt="" />
+          </div>
+          <h2 class="productName"></h2>
+          <div class="productRating">
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="productDescription"></p>
+          <div class="productPriceElement">
+            <p class="productPrice"></p>
+            <p class="productActualPrice"></p>
+          </div>
+          <div class="productStockElement">
+            <p class="productProperty">Total Stocks Available :</p>
+            <p class="productStock"></p>
+          </div>
+          <div class="productQuantityElement">
+            <p class="productProperty">Quantity(Pieces)</p>
+            <div class="stockElement">
+              <button class="cartDecrement">-</button>
+              <p class="productQuantity">1</p>
+              <button class="cartIncrement">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-button">
+            <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+          </button>
+        </article>
+      </div>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
