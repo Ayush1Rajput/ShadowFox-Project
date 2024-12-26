@@ -36,17 +36,17 @@
 
 
       <div id="list">
-          <ul>
-            <li style="border-bottom: 2px solid rgb(250, 2, 2);"><a href="./index.html">HOME</a></li>
-            <li><a href="./women.html">WOMEN'S</a></li>
-            <li><a href="./men.html">MEN'S</a></li>
-            <li><a href="./AllProducts.html">SHOP</a></li>
-            <li><a href="#">PAGES</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-      </div>
-
+        <ul>
+          <li style="border-bottom: 2px solid rgb(250, 2, 2);"><a href="./index.html">HOME</a></li>
+          <li><a href="./women.html">WOMEN'S</a></li>
+          <li><a href="./men.html">MEN'S</a></li>
+          <li><a href="./AllProducts.html">SHOP</a></li>
+          <li><a href="#">PAGES</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#last-page">CONTACT</a></li>
+        </ul>
+    </div>
+      
       <div id="icons">
           <span> Login/ Register </span>
           <i class="fas fa-search fa-rotate-90"></i>
@@ -62,7 +62,6 @@
         <div id="productContainer"></div>
       </section>
     </section>
-    
 
     <template id="productTemplate">
       <div class="cards" id="cardValue">
@@ -103,264 +102,54 @@
     </template>
   </body>
   <script>
-    const data = {
-      /* Your JSON data here */
-
-      categories: [
-        {
-          id: 2,
-          name: "Women's Fashion",
-          products: [
-            {
-              id: 11,
-              name: "Women's Dress",
-              description: "Elegant summer dress for women.",
-              price: 2899,
-              image: "./pictures/WomenProducts/dress.png",
-              sizes: ["S", "M", "L", "XL"],
-              colors: ["Red", "Black", "White"],
-              total_stock: 732,
-            },
-            {
-              id: 12,
-              name: "Women's Shoes",
-              description: "Stylish high heels for women.",
-              price: 1799,
-              image: "./pictures/WomenProducts/heels.webp",
-              sizes: ["6", "7", "8", "9"],
-              colors: ["Black", "Red", "Beige"],
-              total_stock: 432,
-            },
-            {
-              id: 13,
-              name: "Women's Jeans",
-              description: "Classic denim jeans for women.",
-              price: 2999,
-              image: "./pictures/WomenProducts/wjeans.png",
-              sizes: ["26", "28", "30", "32"],
-              colors: ["Blue", "Black", "Grey"],
-              total_stock: 633,
-            },
-            {
-              id: 14,
-              name: "Women's Blouse",
-              description: "Stylish blouse for women.",
-              price: 1899,
-              image: "./pictures/WomenProducts/blouse.png",
-              sizes: ["S", "M", "L", "XL"],
-              colors: ["White", "Pink", "Blue"],
-              total_stock: 278,
-            },
-            {
-              id: 15,
-              name: "Women's Skirt",
-              description: "Flowing skirt for women.",
-              price: 899,
-              image: "./pictures/WomenProducts/skirt.png",
-              sizes: ["S", "M", "L"],
-              colors: ["Black", "Red", "Green"],
-              total_stock: 329,
-            },
-            {
-              id: 16,
-              name: "Women's Bag",
-              description: "Stylish handbag for women.",
-              price: 4399,
-              image: "./pictures/WomenProducts/handbag.png",
-              colors: ["Black", "Brown", "Red"],
-              total_stock: 189,
-            },
-            {
-              id: 17,
-              name: "Women's Watch",
-              description: "Elegant women's wristwatch.",
-              price: 79.99,
-              image: "./pictures/WomenProducts/wwatch.png",
-              colors: ["Gold", "Silver", "Rose Gold"],
-              total_stock: 372,
-            },
-            {
-              id: 18,
-              name: "Women's Jewelry",
-              description: "Beautiful jewelry for women.",
-              price: 29.99,
-              image: "./pictures/WomenProducts/jewelry.png",
-              colors: ["Gold", "Silver"],
-              total_stock: 7999,
-            },
-            {
-              id: 19,
-              name: "Women's Sunglasses",
-              description: "Stylish sunglasses for women.",
-              price: 29.99,
-              image: "./pictures/WomenProducts/glass.png",
-              colors: ["Black", "Brown", "Grey"],
-              total_stock: 439,
-            },
-            {
-              id: 20,
-              name: "Women's Scarf",
-              description: "Stylish winter scarf for women.",
-              price: 699,
-              image: "./pictures/WomenProducts/wscarf.png",
-              colors: ["Grey", "Black", "Red"],
-            },
-            
-              {
-                id: 21,
-                name: "Women's Coat",
-                description: "Warm and stylish coat for winter.",
-                price: 7499.99,
-                image: "./pictures/WomenProducts/Coat.png",
-                colors: ["Black", "Camel", "Navy"],
-                sizes: ["S", "M", "L", "XL"],
-                total_stock: 120,
-              },
-              {
-                id: 22,
-                name: "Women's Leggings",
-                description:
-                  "Comfortable and versatile leggings for casual wear.",
-                price: 999.99,
-                image: "./pictures/WomenProducts/legging.png",
-                colors: ["Black", "Grey", "Navy"],
-                sizes: ["S", "M", "L", "XL"],
-                total_stock: 250,
-              },
-              {
-                id: 23,
-                name: "Women's Cardigan",
-                description: "Cozy knit cardigan for layering.",
-                price: 3499.99,
-                image: "./pictures/WomenProducts/cardigan.png",
-                colors: ["Beige", "White", "Gray"],
-                sizes: ["S", "M", "L", "XL"],
-                total_stock: 150,
-              },
-              {
-                id: 24,
-                name: "Women's Hat",
-                description: "Stylish and functional hats for all seasons.",
-                price: 1099,
-                image: "./pictures/WomenProducts/hat.png",
-                colors: ["Black", "Tan", "Pink"],
-                sizes: ["One Size"],
-                total_stock: 180,
-              },
-              {
-                id: 25,
-                name: "Women's High-Waisted Trousers",
-                description:
-                  "Elegant high-waisted trousers for formal and casual wear.",
-                price: 4499.99,
-                image:
-                  "./pictures/WomenProducts/Trousers.png",
-                colors: ["Black", "Navy", "Beige"],
-                sizes: ["28", "30", "32", "34"],
-                total_stock: 220,
-              },
-              {
-                id: 26,
-                name: "Women's Blazer",
-                description: "Tailored blazer for a polished look.",
-                price: 6499.99,
-                image: "./pictures/WomenProducts/blazer.png",
-                colors: ["Black", "Grey", "Blue"],
-                sizes: ["S", "M", "L", "XL"],
-                total_stock: 100,
-              },
-              {
-                id: 27,
-                name: "Women's Boots",
-                description: "Stylish boots for the colder months.",
-                price: 5499.99,
-                image: "./pictures/WomenProducts/boots.png",
-                colors: ["Brown", "Black", "Tan"],
-                sizes: ["6", "7", "8", "9"],
-                total_stock: 130,
-              },
-              {
-                id: 28,
-                name: "Women's Romper",
-                description:
-                  "Comfortable and trendy one-piece romper for women.",
-                price: 2999.99,
-                image: "./pictures/WomenProducts/romper.png",
-                colors: ["Black", "Red", "Yellow"],
-                sizes: ["S", "M", "L"],
-                total_stock: 160,
-              },
-            //   {
-            //     id: 29,
-            //     name: "Women's Tote Bag",
-            //     description: "Spacious tote bag for everyday use.",
-            //     price: 3999.99,
-            //     image: "./pictures/WomenProducts/Women's+Tote+Bag.png",
-            //     colors: ["Black", "Beige", "Red"],
-            //     sizes: ["One Size"],
-            //     total_stock: 200,
-            //   },
-            //   {
-            //     id: 30,
-            //     name: "Women's Jumpsuit",
-            //     description:
-            //       "Trendy jumpsuit for a stylish and comfortable look.",
-            //     price: 4999.99,
-            //     image: "./pictures/WomenProducts/Women's+Jumpsuit.png",
-            //     colors: ["Black", "Olive", "Blue"],
-            //     sizes: ["S", "M", "L"],
-            //     total_stock: 170,
-            //   },
-            //   {
-            //     id: 31,
-            //     name: "Women's Sweater",
-            //     description: "Cozy and stylish sweater for colder days.",
-            //     price: 2999.99,
-            //     image: "./pictures/WomenProducts/heels.webp",
-            //     colors: ["Grey", "Pink", "Blue"],
-            //     sizes: ["S", "M", "L", "XL"],
-            //     total_stock: 250,
-            //   },
-            ],
-          
-        },
-      ],
-    };
-
     const productContainer = document.getElementById("productContainer");
-    const productTemplate = document.getElementById("productTemplate").content;
+const productTemplate = document.getElementById("productTemplate").content;
 
-    function createCard(product) {
-      const cardClone = document.importNode(productTemplate, true);
+// Function to fetch data from the JSON file
+async function fetchProducts() {
+  try {
+    const response = await fetch('./API/data.json');  // Fetch data from the JSON file
+    const data = await response.json();  // Parse the response as JSON
 
-      cardClone.querySelector(".productName").textContent = product.name;
-      cardClone.querySelector(".productDescription").textContent =
-        product.description;
-      cardClone.querySelector(
-        ".productPrice"
-      ).textContent = `₹${product.price.toFixed(2)}`;
-      cardClone.querySelector(".productImg").src = product.image;
-      // Add the stock information
-      cardClone.querySelector(
-        ".productStock"
-      ).textContent = `${product.total_stock}`;
+    // Filter products by the 'Men' category
+    const menCategory = data.categories.find(category => category.name === "Women");
 
-      // Add event listener for "Add to Cart" button (optional)
-      cardClone
-        .querySelector(".add-to-cart-button")
-        .addEventListener("click", () => {
-          // Handle "Add to Cart" logic here
-          console.log(`${product.name} added to cart!`);
-        });
-
-      return cardClone;
-    }
-
-    data.categories.forEach((category) => {
-      category.products.forEach((product) => {
+    if (menCategory) {
+      menCategory.products.forEach((product) => {
         const card = createCard(product);
         productContainer.appendChild(card);
       });
-    });
+    } else {
+      console.error("Men's category not found in the data.");
+    }
+  } catch (error) {
+    console.error("Error fetching the product data:", error);
+  }
+}
+
+// Function to create a product card
+function createCard(product) {
+  const cardClone = document.importNode(productTemplate, true);
+
+  cardClone.querySelector(".productName").textContent = product.name;
+  cardClone.querySelector(".productDescription").textContent = product.description;
+  cardClone.querySelector(".productPrice").textContent = `₹${product.price.toFixed(2)}`;
+  cardClone.querySelector(".productImg").src = product.image;
+  // Add the stock information
+  cardClone.querySelector(".productStock").textContent = `${product.total_stock}`;
+  
+  // Add event listener for "Add to Cart" button (optional)
+  cardClone.querySelector(".add-to-cart-button").addEventListener("click", () => {
+    // Handle "Add to Cart" logic here
+    console.log(`${product.name} added to cart!`);
+  });
+
+  return cardClone;
+}
+
+// Call the fetchProducts function to load and display products
+fetchProducts();
+
   </script>
+  <script src="card.js"></script>
 </html>

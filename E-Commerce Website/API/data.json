@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": 1,
-      "name": "Men's Fashion",
+      "name": "Men",
       "products": [
         {
           "id": 9,
@@ -10,7 +10,10 @@
           "description": "Leather wallet for men.",
           "price": 699,
           "image": "./pictures/MenProducts/wallet.png",
-          "colors": ["Black", "Brown"],
+          "colors": [
+            "Black",
+            "Brown"
+          ],
           "total_stock": 468
         },
         {
@@ -19,8 +22,18 @@
           "description": "Comfortable cotton t-shirt for men.",
           "price": 1499,
           "image": "./pictures/MenProducts/tshirt.jpg",
-          "sizes": ["S", "M", "L", "XL"],
-          "colors": ["Black", "White", "Blue", "Grey"],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "Black",
+            "White",
+            "Blue",
+            "Grey"
+          ],
           "total_stock": 542
         },
         {
@@ -28,9 +41,17 @@
           "name": "Men's Shoes",
           "description": "Comfortable leather shoes for men.",
           "price": 2899,
-          "image": "https://pixabay.com/get/gade4b9327fa3fd8d0fec9ca05e5d1bb1ea0d42031473f90563978890216187749b3f3a8b829240bd159d48b2bec9469d788c3fbea5882cbab5b53105ddcd4ddccaa7121deedb3a4727000eaa577ac54b_640.jpg",
-          "sizes": ["7", "8", "9", "10"],
-          "colors": ["Black", "Brown"],
+          "image": "./pictures/MenProducts/manshoes.png",
+          "sizes": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "colors": [
+            "Black",
+            "Brown"
+          ],
           "total_stock": 425
         },
         {
@@ -39,7 +60,11 @@
           "description": "Stylish sunglasses for men.",
           "price": 899,
           "image": "./pictures/MenProducts/sunglass.png",
-          "colors": ["Black", "Brown", "Grey"],
+          "colors": [
+            "Black",
+            "Brown",
+            "Grey"
+          ],
           "total_stock": 784
         },
         {
@@ -48,8 +73,17 @@
           "description": "Stylish hooded sweatshirt for men.",
           "price": 2799,
           "image": "./pictures/MenProducts/hoodie.png",
-          "sizes": ["S", "M", "L", "XL"],
-          "colors": ["Black", "Grey", "Navy"],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "Black",
+            "Grey",
+            "Navy"
+          ],
           "total_stock": 325
         },
         {
@@ -58,7 +92,11 @@
           "description": "Durable backpack for men.",
           "price": 1399,
           "image": "./pictures/MenProducts/bagpack.png",
-          "colors": ["Black", "Grey", "Blue"],
+          "colors": [
+            "Black",
+            "Grey",
+            "Blue"
+          ],
           "total_stock": 783
         },
         {
@@ -67,7 +105,11 @@
           "description": "Elegant men's wristwatch.",
           "price": 1789,
           "image": "./pictures/MenProducts/watch.png",
-          "colors": ["Black", "Silver", "Gold"],
+          "colors": [
+            "Black",
+            "Silver",
+            "Gold"
+          ],
           "total_stock": 243
         },
         {
@@ -76,8 +118,16 @@
           "description": "Leather belt for men.",
           "price": 1199,
           "image": "./pictures/MenProducts/belt.png",
-          "sizes": ["S", "M", "L"],
-          "colors": ["Black", "Brown", "Tan"],
+          "sizes": [
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Black",
+            "Brown",
+            "Tan"
+          ],
           "total_stock": 254
         },
         {
@@ -86,14 +136,18 @@
           "description": "Stylish winter scarf for men.",
           "price": 779,
           "image": "./pictures/MenProducts/scarf.png",
-          "colors": ["Grey", "Black", "Blue"],
+          "colors": [
+            "Grey",
+            "Black",
+            "Blue"
+          ],
           "total_stock": 1000
         }
       ]
     },
     {
       "id": 2,
-      "name": "Women's Fashion",
+      "name": "Women",
       "products": [
         {
           "id": 20,
@@ -101,7 +155,11 @@
           "description": "Stylish winter scarf for women.",
           "price": 699,
           "image": "./pictures/WomenProducts/wscarf.png",
-          "colors": ["Grey", "Black", "Red"]
+          "colors": [
+            "Grey",
+            "Black",
+            "Red"
+          ]
         },
         {
           "id": 13,
@@ -109,8 +167,17 @@
           "description": "Classic denim jeans for women.",
           "price": 2999,
           "image": "./pictures/WomenProducts/wjeans.png",
-          "sizes": ["26", "28", "30", "32"],
-          "colors": ["Blue", "Black", "Grey"],
+          "sizes": [
+            "26",
+            "28",
+            "30",
+            "32"
+          ],
+          "colors": [
+            "Blue",
+            "Black",
+            "Grey"
+          ],
           "total_stock": 633
         },
         {
@@ -119,8 +186,17 @@
           "description": "Elegant summer dress for women.",
           "price": 2899,
           "image": "./pictures/WomenProducts/dress.png",
-          "sizes": ["S", "M", "L", "XL"],
-          "colors": ["Red", "Black", "White"],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "Red",
+            "Black",
+            "White"
+          ],
           "total_stock": 732
         },
         {
@@ -129,7 +205,10 @@
           "description": "Beautiful jewelry for women.",
           "price": 29.99,
           "image": "./pictures/WomenProducts/jewelry.png",
-          "colors": ["Gold", "Silver"],
+          "colors": [
+            "Gold",
+            "Silver"
+          ],
           "total_stock": 7999
         },
         {
@@ -138,8 +217,17 @@
           "description": "Stylish blouse for women.",
           "price": 1899,
           "image": "./pictures/WomenProducts/blouse.png",
-          "sizes": ["S", "M", "L", "XL"],
-          "colors": ["White", "Pink", "Blue"],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "White",
+            "Pink",
+            "Blue"
+          ],
           "total_stock": 278
         },
         {
@@ -148,8 +236,17 @@
           "description": "Stylish high heels for women.",
           "price": 1799,
           "image": "./pictures/WomenProducts/heels.webp",
-          "sizes": ["6", "7", "8", "9"],
-          "colors": ["Black", "Red", "Beige"],
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "colors": [
+            "Black",
+            "Red",
+            "Beige"
+          ],
           "total_stock": 432
         },
         {
@@ -158,7 +255,11 @@
           "description": "Stylish sunglasses for women.",
           "price": 29.99,
           "image": "./pictures/WomenProducts/glass.png",
-          "colors": ["Black", "Brown", "Grey"],
+          "colors": [
+            "Black",
+            "Brown",
+            "Grey"
+          ],
           "total_stock": 439
         },
         {
@@ -167,7 +268,11 @@
           "description": "Stylish handbag for women.",
           "price": 4399,
           "image": "./pictures/WomenProducts/handbag.png",
-          "colors": ["Black", "Brown", "Red"],
+          "colors": [
+            "Black",
+            "Brown",
+            "Red"
+          ],
           "total_stock": 189
         },
         {
@@ -176,8 +281,17 @@
           "description": "Warm and stylish coat for winter.",
           "price": 7499.99,
           "image": "./pictures/WomenProducts/Coat.png",
-          "colors": ["Black", "Camel", "Navy"],
-          "sizes": ["S", "M", "L", "XL"],
+          "colors": [
+            "Black",
+            "Camel",
+            "Navy"
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
           "total_stock": 120
         },
         {
@@ -186,7 +300,11 @@
           "description": "Elegant women's wristwatch.",
           "price": 79.99,
           "image": "./pictures/WomenProducts/wwatch.png",
-          "colors": ["Gold", "Silver", "Rose Gold"],
+          "colors": [
+            "Gold",
+            "Silver",
+            "Rose Gold"
+          ],
           "total_stock": 372
         },
         {
@@ -195,8 +313,16 @@
           "description": "Flowing skirt for women.",
           "price": 899,
           "image": "./pictures/WomenProducts/skirt.png",
-          "sizes": ["S", "M", "L"],
-          "colors": ["Black", "Red", "Green"],
+          "sizes": [
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Black",
+            "Red",
+            "Green"
+          ],
           "total_stock": 329
         },
         {
@@ -205,8 +331,17 @@
           "description": "Comfortable and versatile leggings for casual wear.",
           "price": 999.99,
           "image": "./pictures/WomenProducts/legging.png",
-          "colors": ["Black", "Grey", "Navy"],
-          "sizes": ["S", "M", "L", "XL"],
+          "colors": [
+            "Black",
+            "Grey",
+            "Navy"
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
           "total_stock": 250
         },
         {
@@ -215,8 +350,14 @@
           "description": "Stylish and functional hats for all seasons.",
           "price": 1099,
           "image": "./pictures/WomenProducts/hat.png",
-          "colors": ["Black", "Tan", "Pink"],
-          "sizes": ["One Size"],
+          "colors": [
+            "Black",
+            "Tan",
+            "Pink"
+          ],
+          "sizes": [
+            "One Size"
+          ],
           "total_stock": 180
         },
         {
@@ -225,8 +366,17 @@
           "description": "Cozy knit cardigan for layering.",
           "price": 3499.99,
           "image": "./pictures/WomenProducts/cardigan.png",
-          "colors": ["Beige", "White", "Gray"],
-          "sizes": ["S", "M", "L", "XL"],
+          "colors": [
+            "Beige",
+            "White",
+            "Gray"
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
           "total_stock": 150
         },
         {
@@ -235,8 +385,17 @@
           "description": "Stylish boots for the colder months.",
           "price": 5499.99,
           "image": "./pictures/WomenProducts/boots.png",
-          "colors": ["Brown", "Black", "Tan"],
-          "sizes": ["6", "7", "8", "9"],
+          "colors": [
+            "Brown",
+            "Black",
+            "Tan"
+          ],
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
           "total_stock": 130
         },
         {
@@ -245,8 +404,16 @@
           "description": "Comfortable and trendy one-piece romper for women.",
           "price": 2999.99,
           "image": "./pictures/WomenProducts/romper.png",
-          "colors": ["Black", "Red", "Yellow"],
-          "sizes": ["S", "M", "L"],
+          "colors": [
+            "Black",
+            "Red",
+            "Yellow"
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L"
+          ],
           "total_stock": 160
         },
         {
@@ -255,8 +422,17 @@
           "description": "Elegant high-waisted trousers for formal and casual wear.",
           "price": 4499.99,
           "image": "./pictures/WomenProducts/Trousers.png",
-          "colors": ["Black", "Navy", "Beige"],
-          "sizes": ["28", "30", "32", "34"],
+          "colors": [
+            "Black",
+            "Navy",
+            "Beige"
+          ],
+          "sizes": [
+            "28",
+            "30",
+            "32",
+            "34"
+          ],
           "total_stock": 220
         },
         {
@@ -265,9 +441,627 @@
           "description": "Tailored blazer for a polished look.",
           "price": 6499.99,
           "image": "./pictures/WomenProducts/blazer.png",
-          "colors": ["Black", "Grey", "Blue"],
-          "sizes": ["S", "M", "L", "XL"],
+          "colors": [
+            "Black",
+            "Grey",
+            "Blue"
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
           "total_stock": 100
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kid's Fashion",
+      "products": [
+        {
+          "id": 1,
+          "name": "Kid's T-Shirt",
+          "description": "Soft cotton t-shirt for kids.",
+          "price": 499,
+          "image": "https://images.pexels.com/photos/3951624/pexels-photo-3951624.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Yellow",
+            "Green",
+            "Blue"
+          ],
+          "total_stock": 150
+        },
+        {
+          "id": 2,
+          "name": "Kid's Jeans",
+          "description": "Comfortable denim jeans for kids.",
+          "price": 899,
+          "image": "https://images.pexels.com/photos/6984665/pexels-photo-6984665.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Blue",
+            "Black"
+          ],
+          "total_stock": 200
+        },
+        {
+          "id": 3,
+          "name": "Kid's Hoodie",
+          "description": "Warm and cozy hoodie for kids.",
+          "price": 799,
+          "image": "https://images.pexels.com/photos/7752791/pexels-photo-7752791.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Red",
+            "Blue",
+            "Grey"
+          ],
+          "total_stock": 100
+        },
+        {
+          "id": 4,
+          "name": "Kid's Shoes",
+          "description": "Durable and stylish shoes for kids.",
+          "price": 1299,
+          "image": "https://images.pexels.com/photos/545046/pexels-photo-545046.jpeg",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "colors": [
+            "Black",
+            "White",
+            "Blue"
+          ],
+          "total_stock": 300
+        },
+        {
+          "id": 5,
+          "name": "Kid's Socks",
+          "description": "Comfortable cotton socks for kids.",
+          "price": 199,
+          "image": "https://images.pexels.com/photos/3099832/pexels-photo-3099832.jpeg",
+          "sizes": [
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "White",
+            "Blue",
+            "Pink"
+          ],
+          "total_stock": 500
+        },
+        {
+          "id": 6,
+          "name": "Kid's Cap",
+          "description": "Stylish cap for kids.",
+          "price": 299,
+          "image": "https://images.pexels.com/photos/1442796/pexels-photo-1442796.jpeg",
+          "sizes": [
+            "S",
+            "M"
+          ],
+          "colors": [
+            "Red",
+            "Blue",
+            "Green"
+          ],
+          "total_stock": 250
+        },
+        {
+          "id": 7,
+          "name": "Kid's Backpack",
+          "description": "Durable backpack for kids.",
+          "price": 999,
+          "image": "https://images.pexels.com/photos/630355/pexels-photo-630355.jpeg",
+          "colors": [
+            "Red",
+            "Blue",
+            "Green"
+          ],
+          "total_stock": 150
+        },
+        {
+          "id": 8,
+          "name": "Kid's Jacket",
+          "description": "Warm jacket for kids.",
+          "price": 1499,
+          "image": "https://images.pexels.com/photos/1040920/pexels-photo-1040920.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Black",
+            "Grey",
+            "Blue"
+          ],
+          "total_stock": 100
+        },
+        {
+          "id": 9,
+          "name": "Kid's Hat",
+          "description": "Cute hat for kids.",
+          "price": 399,
+          "image": "https://images.pexels.com/photos/1642841/pexels-photo-1642841.jpeg",
+          "sizes": [
+            "S",
+            "M"
+          ],
+          "colors": [
+            "Pink",
+            "Blue",
+            "Yellow"
+          ],
+          "total_stock": 200
+        },
+        {
+          "id": 10,
+          "name": "Kid's Gloves",
+          "description": "Warm gloves for kids.",
+          "price": 299,
+          "image": "https://images.pexels.com/photos/1576005/pexels-photo-1576005.jpeg",
+          "sizes": [
+            "S",
+            "M"
+          ],
+          "colors": [
+            "Red",
+            "Blue",
+            "Grey"
+          ],
+          "total_stock": 300
+        },
+        {
+          "id": 11,
+          "name": "Kid's Sweater",
+          "description": "Comfortable sweater for kids.",
+          "price": 899,
+          "image": "https://images.pexels.com/photos/774865/pexels-photo-774865.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Red",
+            "Blue",
+            "Green"
+          ],
+          "total_stock": 120
+        },
+        {
+          "id": 12,
+          "name": "Kid's Pajamas",
+          "description": "Soft pajamas for kids.",
+          "price": 699,
+          "image": "https://images.pexels.com/photos/256372/pexels-photo-256372.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "White",
+            "Pink",
+            "Blue"
+          ],
+          "total_stock": 180
+        },
+        {
+          "id": 13,
+          "name": "Kid's Shorts",
+          "description": "Comfortable shorts for kids.",
+          "price": 499,
+          "image": "https://images.pexels.com/photos/1620774/pexels-photo-1620774.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Blue",
+            "Black",
+            "Grey"
+          ],
+          "total_stock": 200
+        },
+        {
+          "id": 14,
+          "name": "Kid's Dress",
+          "description": "Cute dress for girls.",
+          "price": 1299,
+          "image": "https://images.pexels.com/photos/1822434/pexels-photo-1822434.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Pink",
+            "White",
+            "Blue"
+          ],
+          "total_stock": 150
+        },
+        {
+          "id": 15,
+          "name": "Kid's Sandals",
+          "description": "Comfortable sandals for kids.",
+          "price": 699,
+          "image": "https://images.pexels.com/photos/1040943/pexels-photo-1040943.jpeg",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "colors": [
+            "Red",
+            "Blue",
+            "Green"
+          ],
+          "total_stock": 250
+        },
+        {
+          "id": 16,
+          "name": "Kid's Swimwear",
+          "description": "Comfortable swimwear for kids.",
+          "price": 999,
+          "image": "https://images.pexels.com/photos/1576053/pexels-photo-1576053.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Blue",
+            "Red",
+            "Yellow"
+          ],
+          "total_stock": 80
+        },
+        {
+          "id": 17,
+          "name": "Kid's Raincoat",
+          "description": "Waterproof raincoat for kids.",
+          "price": 799,
+          "image": "https://images.pexels.com/photos/358509/pexels-photo-358509.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Yellow",
+            "Blue",
+            "Red"
+          ],
+          "total_stock": 90
+        },
+        {
+          "id": 18,
+          "name": "Kid's Blazer",
+          "description": "Stylish blazer for kids.",
+          "price": 1999,
+          "image": "https://images.pexels.com/photos/220425/pexels-photo-220425.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Black",
+            "Blue",
+            "Grey"
+          ],
+          "total_stock": 70
+        },
+        {
+          "id": 19,
+          "name": "Kid's Skirt",
+          "description": "Cute skirt for girls.",
+          "price": 799,
+          "image": "https://images.pexels.com/photos/1220956/pexels-photo-1220956.jpeg",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+          ],
+          "colors": [
+            "Pink",
+            "Red",
+            "Blue"
+          ],
+          "total_stock": 130
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kid's Fashion",
+      "products": [
+        {
+          "id": 1,
+          "name": "Luminous Liquid Foundation",
+          "description": "Lightweight, buildable coverage foundation for a natural, radiant finish.",
+          "price": 32,
+          "image": "./pictures/cosmetics/foundation1.jpg",
+          "shades": [
+            "Ivory",
+            "Porcelain",
+            "Light",
+            "Medium",
+            "Tan",
+            "Deep"
+          ],
+          "type": "Foundation",
+          "total_stock": 150
+        },
+        {
+          "id": 2,
+          "name": "Matte Lipstick",
+          "description": "Long-lasting, intensely pigmented matte lipstick.",
+          "price": 18,
+          "image": "./pictures/cosmetics/lipstick1.jpg",
+          "shades": [
+            "Red",
+            "Coral",
+            "Nude",
+            "Plum",
+            "Berry",
+            "Brown"
+          ],
+          "type": "Lipstick",
+          "total_stock": 200
+        },
+        {
+          "id": 3,
+          "name": "Volumizing Mascara",
+          "description": "Lengthens and volumizes lashes for dramatic definition.",
+          "price": 24,
+          "image": "./pictures/cosmetics/mascara1.jpg",
+          "type": "Mascara",
+          "total_stock": 180
+        },
+        {
+          "id": 4,
+          "name": "Cream Blush",
+          "description": "Easy-to-blend cream blush for a natural flush of color.",
+          "price": 20,
+          "image": "./pictures/cosmetics/blush1.jpg",
+          "shades": [
+            "Rose",
+            "Peach",
+            "Coral",
+            "Berry"
+          ],
+          "type": "Blush",
+          "total_stock": 120
+        },
+        {
+          "id": 5,
+          "name": "Concealer",
+          "description": "Full coverage concealer for under-eye circles and blemishes.",
+          "price": 16,
+          "image": "./pictures/cosmetics/concealer1.jpg",
+          "shades": [
+            "Fair",
+            "Light",
+            "Medium",
+            "Tan"
+          ],
+          "type": "Concealer",
+          "total_stock": 175
+        },
+        {
+          "id": 6,
+          "name": "Pressed Powder",
+          "description": "Lightweight, translucent powder to set makeup and control shine.",
+          "price": 14,
+          "image": "./pictures/cosmetics/powder1.jpg",
+          "type": "Powder",
+          "total_stock": 250
+        },
+        {
+          "id": 7,
+          "name": "Brow Pencil",
+          "description": "Precisely defines and fills in eyebrows.",
+          "price": 12,
+          "image": "./pictures/cosmetics/browpencil1.jpg",
+          "shades": [
+            "Blonde",
+            "Light Brown",
+            "Medium Brown",
+            "Dark Brown",
+            "Black"
+          ],
+          "type": "Eyebrow",
+          "total_stock": 100
+        },
+        {
+          "id": 8,
+          "name": "Eyeshadow Palette",
+          "description": "Versatile eyeshadow palette with a range of neutral and vibrant shades.",
+          "price": 38,
+          "image": "./pictures/cosmetics/eyeshadow1.jpg",
+          "type": "Eyeshadow",
+          "total_stock": 80
+        },
+        {
+          "id": 9,
+          "name": "Lip Gloss",
+          "description": "High-shine lip gloss with a hint of color.",
+          "price": 10,
+          "image": "./pictures/cosmetics/lipgloss1.jpg",
+          "shades": [
+            "Clear",
+            "Pink",
+            "Peach",
+            "Coral",
+            "Rose"
+          ],
+          "type": "Lip Gloss",
+          "total_stock": 220
+        },
+        {
+          "id": 10,
+          "name": "Waterproof Mascara",
+          "description": "Long-lasting, smudge-proof mascara for all-day wear.",
+          "price": 26,
+          "image": "./pictures/cosmetics/mascara2.jpg",
+          "type": "Mascara",
+          "total_stock": 160
+        },
+        {
+          "id": 11,
+          "name": "Matte Bronzer",
+          "description": "Warm, matte bronzer for a natural-looking tan.",
+          "price": 22,
+          "image": "./pictures/cosmetics/bronzer1.jpg",
+          "type": "Bronzer",
+          "total_stock": 140
+        },
+        {
+          "id": 12,
+          "name": "Highlighter",
+          "description": "Illuminating highlighter for a radiant complexion.",
+          "price": 28,
+          "image": "./pictures/cosmetics/highlighter1.jpg",
+          "type": "Highlighter",
+          "total_stock": 90
+        },
+        {
+          "id": 13,
+          "name": "Liquid Eyeliner",
+          "description": "Intense, long-wearing liquid eyeliner for precise application.",
+          "price": 15,
+          "image": "./pictures/cosmetics/eyeliner1.jpg",
+          "type": "Eyeliner",
+          "total_stock": 110
+        },
+        {
+          "id": 14,
+          "name": "Setting Spray",
+          "description": "Long-lasting setting spray to lock in makeup for hours.",
+          "price": 12,
+          "image": "./pictures/cosmetics/settingspray1.jpg",
+          "type": "Setting Spray",
+          "total_stock": 280
+        },
+        {
+          "id": 15,
+          "name": "BB Cream",
+          "description": "Lightweight, tinted moisturizer with SPF protection.",
+          "price": 25,
+          "image": "./pictures/cosmetics/bbcream1.jpg",
+          "shades": [
+            "Light",
+            "Medium",
+            "Tan"
+          ],
+          "type": "BB Cream",
+          "total_stock": 190
+        },
+        {
+          "id": 16,
+          "name": "CC Cream",
+          "description": "Color-correcting cream that evens out skin tone and provides light coverage.",
+          "price": 27,
+          "image": "./pictures/cosmetics/cccream1.jpg",
+          "shades": [
+            "Light",
+            "Medium",
+            "Tan"
+          ],
+          "type": "CC Cream",
+          "total_stock": 130
+        },
+        {
+          "id": 17,
+          "name": "Lip Liner",
+          "description": "Defines and plumps lips for long-lasting lip color.",
+          "price": 11,
+          "image": "./pictures/cosmetics/lipliner1.jpg",
+          "shades": [
+            "Nude",
+            "Brown",
+            "Red",
+            "Berry"
+          ],
+          "type": "Lip Liner",
+          "total_stock": 150
+        },
+        {
+          "id": 18,
+          "name": "Waterproof Eyeliner Pencil",
+          "description": "Smudge-proof eyeliner pencil for easy application.",
+          "price": 13,
+          "image": "./pictures/cosmetics/eyelinerpencil1.jpg",
+          "shades": [
+            "Black",
+            "Brown",
+            "Grey"
+          ],
+          "type": "Eyeliner",
+          "total_stock": 120
+        },
+        {
+          "id": 19,
+          "name": "Mineral Powder Foundation",
+          "description": "Lightweight, breathable foundation for sensitive skin.",
+          "price": 30,
+          "image": "./pictures/cosmetics/mineralfoundation1.jpg",
+          "shades": [
+            "Ivory",
+            "Porcelain",
+            "Light",
+            "Medium",
+            "Tan"
+          ],
+          "type": "Foundation",
+          "total_stock": 180
+        },
+        {
+          "id": 20,
+          "name": "Face Mist",
+          "description": "Refreshing face mist to hydrate and set makeup.",
+          "price": 10,
+          "image": "./pictures/cosmetics/facemist1.jpg",
+          "type": "Face Mist",
+          "total_stock": 25
         }
       ]
     }
