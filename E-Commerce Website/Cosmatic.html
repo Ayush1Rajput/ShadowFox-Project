@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Products.css" />
+    <title>Product Cards</title>
+    <style>
+      .add-to-cart-button {
+        background-color: rgb(92, 212, 152);
+        color: #000;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .add-to-cart-button:hover {
+        background-color: rgb(44, 141, 93);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div id="logo">
+          <img src="./pictures/EiserFashion-logo.png" alt="Logo" />
+      </div>
+
+
+      <div id="list">
+        <ul>
+          <li style="border-bottom: 2px solid rgb(250, 2, 2);"><a href="./index.html">HOME</a></li>
+          <li><a href="./women.html">WOMEN'S</a></li>
+          <li><a href="./men.html">MEN'S</a></li>
+          <li><a href="./AllProducts.html">SHOP</a></li>
+          <li><a href="#">PAGES</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#last-page">CONTACT</a></li>
+        </ul>
+    </div>
+      
+      <div id="icons">
+          <span> Login/ Register </span>
+          <i class="fas fa-search fa-rotate-90"></i>
+          <i class="far fa-heart"></i>
+          <i class="fa-regular fa-clipboard"></i>
+      </div>
+  </div>
+    <section class="section-products">
+      <div class="container">
+        <div class="section-common-heading"></div>
+      </div>
+      <section class="container">
+        <div id="productContainer"></div>
+      </section>
+    </section>
+
+    <template id="productTemplate">
+      <div class="cards" id="cardValue">
+        <article class="information">
+          <div class="imageContainer">
+            <img class="productImg" src="" alt="" />
+          </div>
+          <h2 class="productName"></h2>
+          <div class="productRating">
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="productDescription"></p>
+          <div class="productPriceElement">
+            <p class="productPrice"></p>
+            <p class="productActualPrice"></p>
+          </div>
+          <div class="productStockElement">
+            <p class="productProperty">Total Stocks Available :</p>
+            <p class="productStock"></p>
+          </div>
+          <div class="productQuantityElement">
+            <p class="productProperty">Quantity(Pieces)</p>
+            <div class="stockElement">
+              <button class="cartDecrement">-</button>
+              <p class="productQuantity">1</p>
+              <button class="cartIncrement">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart-button">
+            <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+          </button>
+        </article>
+      </div>
+    </template>
+  </body>
+  <script>
+    const productContainer = document.getElementById("productContainer");
+const productTemplate = document.getElementById("productTemplate").content;
+
+// Function to fetch data from the JSON file
+async function fetchProducts() {
+  try {
+    const response = await fetch('./API/data.json');  // Fetch data from the JSON file
+    const data = await response.json();  // Parse the response as JSON
+
+    // Filter products by the 'Men' category
+    const menCategory = data.categories.find(category => category.name === "Cosmatic");
+
+    if (menCategory) {
+      menCategory.products.forEach((product) => {
+        const card = createCard(product);
+        productContainer.appendChild(card);
+      });
+    } else {
+      console.error("Men's category not found in the data.");
+    }
+  } catch (error) {
+    console.error("Error fetching the product data:", error);
+  }
+}
+
+// Function to create a product card
+function createCard(product) {
+  const cardClone = document.importNode(productTemplate, true);
+
+  cardClone.querySelector(".productName").textContent = product.name;
+  cardClone.querySelector(".productDescription").textContent = product.description;
+  cardClone.querySelector(".productPrice").textContent = `₹${product.price.toFixed(2)}`;
+  cardClone.querySelector(".productImg").src = product.image;
+  // Add the stock information
+  cardClone.querySelector(".productStock").textContent = `${product.total_stock}`;
+  
+  // Add event listener for "Add to Cart" button (optional)
+  cardClone.querySelector(".add-to-cart-button").addEventListener("click", () => {
+    // Handle "Add to Cart" logic here
+    console.log(`${product.name} added to cart!`);
+  });
+
+  return cardClone;
+}
+
+// Call the fetchProducts function to load and display products
+fetchProducts();
+
+  </script>
+  <script src="card.js"></script>
+</html>

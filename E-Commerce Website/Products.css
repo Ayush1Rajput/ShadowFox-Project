@@ -66,13 +66,21 @@
     }
     .cards {
         width: 100%; /* Make cards full width on smaller screens */
-    }
+    
+      }
+      #list {
+        display: none;
+      }
 }
 
 @media (max-width: 480px) {
-    .cards {
-        margin: 5px; /* Reduce margins on very small screens */
-    }
+    
+    #productContainer {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+  }
+  .cards {
+      width: 100%; /* Make cards full width on smaller screens */
+  }
 }
   
   .information {

@@ -465,7 +465,7 @@
           "name": "Kid's T-Shirt",
           "description": "Soft cotton t-shirt for kids.",
           "price": 499,
-          "image": "https://images.pexels.com/photos/3951624/pexels-photo-3951624.jpeg",
+          "image": "./pictures/KidsProduct/kid_t-shirt.jpg",
           "sizes": [
             "XS",
             "S",
@@ -484,7 +484,7 @@
           "name": "Kid's Jeans",
           "description": "Comfortable denim jeans for kids.",
           "price": 899,
-          "image": "https://images.pexels.com/photos/6984665/pexels-photo-6984665.jpeg",
+          "image": "./pictures/KidsProduct/kid_jeans.jpg",
           "sizes": [
             "XS",
             "S",
@@ -502,7 +502,7 @@
           "name": "Kid's Hoodie",
           "description": "Warm and cozy hoodie for kids.",
           "price": 799,
-          "image": "https://images.pexels.com/photos/7752791/pexels-photo-7752791.jpeg",
+          "image": "./pictures/KidsProduct/kid_hoodie.webp",
           "sizes": [
             "XS",
             "S",
@@ -521,7 +521,7 @@
           "name": "Kid's Shoes",
           "description": "Durable and stylish shoes for kids.",
           "price": 1299,
-          "image": "https://images.pexels.com/photos/545046/pexels-photo-545046.jpeg",
+          "image": "./pictures/KidsProduct/kid_shoes.jpg",
           "sizes": [
             "6",
             "7",
@@ -540,7 +540,7 @@
           "name": "Kid's Socks",
           "description": "Comfortable cotton socks for kids.",
           "price": 199,
-          "image": "https://images.pexels.com/photos/3099832/pexels-photo-3099832.jpeg",
+          "image": "./pictures/KidsProduct/kid_sock.jpg",
           "sizes": [
             "S",
             "M",
@@ -558,7 +558,7 @@
           "name": "Kid's Cap",
           "description": "Stylish cap for kids.",
           "price": 299,
-          "image": "https://images.pexels.com/photos/1442796/pexels-photo-1442796.jpeg",
+          "image": "./pictures/KidsProduct/kid_cap.jpg",
           "sizes": [
             "S",
             "M"
@@ -575,7 +575,7 @@
           "name": "Kid's Backpack",
           "description": "Durable backpack for kids.",
           "price": 999,
-          "image": "https://images.pexels.com/photos/630355/pexels-photo-630355.jpeg",
+          "image": "./pictures/KidsProduct/kid_bagpack.webp",
           "colors": [
             "Red",
             "Blue",
@@ -588,7 +588,7 @@
           "name": "Kid's Jacket",
           "description": "Warm jacket for kids.",
           "price": 1499,
-          "image": "https://images.pexels.com/photos/1040920/pexels-photo-1040920.jpeg",
+          "image": "./pictures/KidsProduct/kid_jacket.webp",
           "sizes": [
             "XS",
             "S",
@@ -607,7 +607,7 @@
           "name": "Kid's Hat",
           "description": "Cute hat for kids.",
           "price": 399,
-          "image": "https://images.pexels.com/photos/1642841/pexels-photo-1642841.jpeg",
+          "image": "./pictures/KidsProduct/kid_hat.webp",
           "sizes": [
             "S",
             "M"
@@ -624,7 +624,7 @@
           "name": "Kid's Gloves",
           "description": "Warm gloves for kids.",
           "price": 299,
-          "image": "https://images.pexels.com/photos/1576005/pexels-photo-1576005.jpeg",
+          "image": "./pictures/KidsProduct/kid_gloves.webp",
           "sizes": [
             "S",
             "M"
@@ -641,7 +641,7 @@
           "name": "Kid's Sweater",
           "description": "Comfortable sweater for kids.",
           "price": 899,
-          "image": "https://images.pexels.com/photos/774865/pexels-photo-774865.jpeg",
+          "image": "./pictures/KidsProduct/kid_sweater.webp",
           "sizes": [
             "XS",
             "S",
@@ -660,7 +660,7 @@
           "name": "Kid's Pajamas",
           "description": "Soft pajamas for kids.",
           "price": 699,
-          "image": "https://images.pexels.com/photos/256372/pexels-photo-256372.jpeg",
+          "image": "./pictures/KidsProduct/kid_pajamas.webp",
           "sizes": [
             "XS",
             "S",
@@ -679,7 +679,7 @@
           "name": "Kid's Shorts",
           "description": "Comfortable shorts for kids.",
           "price": 499,
-          "image": "https://images.pexels.com/photos/1620774/pexels-photo-1620774.jpeg",
+          "image": "./pictures/KidsProduct/kid-shorts.jpg",
           "sizes": [
             "XS",
             "S",
@@ -698,7 +698,7 @@
           "name": "Kid's Dress",
           "description": "Cute dress for girls.",
           "price": 1299,
-          "image": "https://images.pexels.com/photos/1822434/pexels-photo-1822434.jpeg",
+          "image": "./pictures/KidsProduct/kid_dress.webp",
           "sizes": [
             "XS",
             "S",
@@ -717,7 +717,7 @@
           "name": "Kid's Sandals",
           "description": "Comfortable sandals for kids.",
           "price": 699,
-          "image": "https://images.pexels.com/photos/1040943/pexels-photo-1040943.jpeg",
+          "image": "./pictures/KidsProduct/kid_sandal.webp",
           "sizes": [
             "6",
             "7",
@@ -736,7 +736,7 @@
           "name": "Kid's Swimwear",
           "description": "Comfortable swimwear for kids.",
           "price": 999,
-          "image": "https://images.pexels.com/photos/1576053/pexels-photo-1576053.jpeg",
+          "image": "./pictures/KidsProduct/kid_swimwear.webp",
           "sizes": [
             "XS",
             "S",
@@ -750,31 +750,13 @@
           ],
           "total_stock": 80
         },
-        {
-          "id": 17,
-          "name": "Kid's Raincoat",
-          "description": "Waterproof raincoat for kids.",
-          "price": 799,
-          "image": "https://images.pexels.com/photos/358509/pexels-photo-358509.jpeg",
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L"
-          ],
-          "colors": [
-            "Yellow",
-            "Blue",
-            "Red"
-          ],
-          "total_stock": 90
-        },
+        
         {
           "id": 18,
           "name": "Kid's Blazer",
           "description": "Stylish blazer for kids.",
           "price": 1999,
-          "image": "https://images.pexels.com/photos/220425/pexels-photo-220425.jpeg",
+          "image": "./pictures/KidsProduct/kid_blazer.jpg",
           "sizes": [
             "XS",
             "S",
@@ -793,7 +775,7 @@
           "name": "Kid's Skirt",
           "description": "Cute skirt for girls.",
           "price": 799,
-          "image": "https://images.pexels.com/photos/1220956/pexels-photo-1220956.jpeg",
+          "image": "./pictures/KidsProduct/kid_skirt.webp",
           "sizes": [
             "XS",
             "S",
@@ -811,14 +793,14 @@
     },
     {
       "id": 3,
-      "name": "Kid's Fashion",
+      "name": "Cosmatic",
       "products": [
         {
           "id": 1,
           "name": "Luminous Liquid Foundation",
           "description": "Lightweight, buildable coverage foundation for a natural, radiant finish.",
-          "price": 32,
-          "image": "./pictures/cosmetics/foundation1.jpg",
+          "price": 320,
+          "image": "./pictures/Cosmatics/Luminous_Liquid_Foundatio.webp",
           "shades": [
             "Ivory",
             "Porcelain",
@@ -834,8 +816,8 @@
           "id": 2,
           "name": "Matte Lipstick",
           "description": "Long-lasting, intensely pigmented matte lipstick.",
-          "price": 18,
-          "image": "./pictures/cosmetics/lipstick1.jpg",
+          "price": 180,
+          "image": "./pictures/Cosmatics/Matte_Lipstick.jpg",
           "shades": [
             "Red",
             "Coral",
@@ -851,8 +833,8 @@
           "id": 3,
           "name": "Volumizing Mascara",
           "description": "Lengthens and volumizes lashes for dramatic definition.",
-          "price": 24,
-          "image": "./pictures/cosmetics/mascara1.jpg",
+          "price": 240,
+          "image": "./pictures/Cosmatics/Volumizing_Mascara.webp",
           "type": "Mascara",
           "total_stock": 180
         },
@@ -860,8 +842,8 @@
           "id": 4,
           "name": "Cream Blush",
           "description": "Easy-to-blend cream blush for a natural flush of color.",
-          "price": 20,
-          "image": "./pictures/cosmetics/blush1.jpg",
+          "price": 200,
+          "image": "./pictures/Cosmatics/Cream_Blush.webp",
           "shades": [
             "Rose",
             "Peach",
@@ -875,8 +857,8 @@
           "id": 5,
           "name": "Concealer",
           "description": "Full coverage concealer for under-eye circles and blemishes.",
-          "price": 16,
-          "image": "./pictures/cosmetics/concealer1.jpg",
+          "price": 316,
+          "image": "./pictures/Cosmatics/Concealer.jpg",
           "shades": [
             "Fair",
             "Light",
@@ -890,8 +872,8 @@
           "id": 6,
           "name": "Pressed Powder",
           "description": "Lightweight, translucent powder to set makeup and control shine.",
-          "price": 14,
-          "image": "./pictures/cosmetics/powder1.jpg",
+          "price": 184,
+          "image": "./pictures/Cosmatics/Pressed_Powder.jpg",
           "type": "Powder",
           "total_stock": 250
         },
@@ -899,8 +881,8 @@
           "id": 7,
           "name": "Brow Pencil",
           "description": "Precisely defines and fills in eyebrows.",
-          "price": 12,
-          "image": "./pictures/cosmetics/browpencil1.jpg",
+          "price": 120,
+          "image": "./pictures/Cosmatics/Brow_Pencil.jpg",
           "shades": [
             "Blonde",
             "Light Brown",
@@ -915,8 +897,8 @@
           "id": 8,
           "name": "Eyeshadow Palette",
           "description": "Versatile eyeshadow palette with a range of neutral and vibrant shades.",
-          "price": 38,
-          "image": "./pictures/cosmetics/eyeshadow1.jpg",
+          "price": 138,
+          "image": "./pictures/Cosmatics/Eyeshadow_Palette.jpg",
           "type": "Eyeshadow",
           "total_stock": 80
         },
@@ -924,8 +906,8 @@
           "id": 9,
           "name": "Lip Gloss",
           "description": "High-shine lip gloss with a hint of color.",
-          "price": 10,
-          "image": "./pictures/cosmetics/lipgloss1.jpg",
+          "price": 210,
+          "image": "./pictures/Cosmatics/Lip_Gloss.jpg",
           "shades": [
             "Clear",
             "Pink",
@@ -940,8 +922,8 @@
           "id": 10,
           "name": "Waterproof Mascara",
           "description": "Long-lasting, smudge-proof mascara for all-day wear.",
-          "price": 26,
-          "image": "./pictures/cosmetics/mascara2.jpg",
+          "price": 226,
+          "image": "./pictures/Cosmatics/Waterproof_Mascara.webp",
           "type": "Mascara",
           "total_stock": 160
         },
@@ -949,8 +931,8 @@
           "id": 11,
           "name": "Matte Bronzer",
           "description": "Warm, matte bronzer for a natural-looking tan.",
-          "price": 22,
-          "image": "./pictures/cosmetics/bronzer1.jpg",
+          "price": 312,
+          "image": "./pictures/Cosmatics/Matte_Bronzer.jpg",
           "type": "Bronzer",
           "total_stock": 140
         },
@@ -958,8 +940,8 @@
           "id": 12,
           "name": "Highlighter",
           "description": "Illuminating highlighter for a radiant complexion.",
-          "price": 28,
-          "image": "./pictures/cosmetics/highlighter1.jpg",
+          "price": 228,
+          "image": "./pictures/Cosmatics/Highlighter.jpg",
           "type": "Highlighter",
           "total_stock": 90
         },
@@ -967,8 +949,8 @@
           "id": 13,
           "name": "Liquid Eyeliner",
           "description": "Intense, long-wearing liquid eyeliner for precise application.",
-          "price": 15,
-          "image": "./pictures/cosmetics/eyeliner1.jpg",
+          "price": 215,
+          "image": "./pictures/Cosmatics/Liquid_Eyeliner.webp",
           "type": "Eyeliner",
           "total_stock": 110
         },
@@ -977,7 +959,7 @@
           "name": "Setting Spray",
           "description": "Long-lasting setting spray to lock in makeup for hours.",
           "price": 12,
-          "image": "./pictures/cosmetics/settingspray1.jpg",
+          "image": "./pictures/Cosmatics/Setting_Spray.webp",
           "type": "Setting Spray",
           "total_stock": 280
         },
@@ -985,8 +967,8 @@
           "id": 15,
           "name": "BB Cream",
           "description": "Lightweight, tinted moisturizer with SPF protection.",
-          "price": 25,
-          "image": "./pictures/cosmetics/bbcream1.jpg",
+          "price": 225,
+          "image": "./pictures/Cosmatics/BB_Cream.webp",
           "shades": [
             "Light",
             "Medium",
@@ -999,8 +981,8 @@
           "id": 16,
           "name": "CC Cream",
           "description": "Color-correcting cream that evens out skin tone and provides light coverage.",
-          "price": 27,
-          "image": "./pictures/cosmetics/cccream1.jpg",
+          "price": 227,
+          "image": "./pictures/Cosmatics/CC_Cream.jpg",
           "shades": [
             "Light",
             "Medium",
@@ -1013,8 +995,8 @@
           "id": 17,
           "name": "Lip Liner",
           "description": "Defines and plumps lips for long-lasting lip color.",
-          "price": 11,
-          "image": "./pictures/cosmetics/lipliner1.jpg",
+          "price": 611,
+          "image": "./pictures/Cosmatics/Lip_Liner.webp",
           "shades": [
             "Nude",
             "Brown",
@@ -1025,25 +1007,11 @@
           "total_stock": 150
         },
         {
-          "id": 18,
-          "name": "Waterproof Eyeliner Pencil",
-          "description": "Smudge-proof eyeliner pencil for easy application.",
-          "price": 13,
-          "image": "./pictures/cosmetics/eyelinerpencil1.jpg",
-          "shades": [
-            "Black",
-            "Brown",
-            "Grey"
-          ],
-          "type": "Eyeliner",
-          "total_stock": 120
-        },
-        {
           "id": 19,
           "name": "Mineral Powder Foundation",
           "description": "Lightweight, breathable foundation for sensitive skin.",
-          "price": 30,
-          "image": "./pictures/cosmetics/mineralfoundation1.jpg",
+          "price": 530,
+          "image": "./pictures/Cosmatics/Mineral_Powder_Foundation.webp",
           "shades": [
             "Ivory",
             "Porcelain",
@@ -1059,7 +1027,7 @@
           "name": "Face Mist",
           "description": "Refreshing face mist to hydrate and set makeup.",
           "price": 10,
-          "image": "./pictures/cosmetics/facemist1.jpg",
+          "image": "./pictures/Cosmatics/Face_Mist.webp",
           "type": "Face Mist",
           "total_stock": 25
         }
